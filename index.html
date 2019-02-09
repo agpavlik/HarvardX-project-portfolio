@@ -4,15 +4,115 @@
     	<meta charset="utf-8">
     	<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Webpage</title>
-        <link href="css/style.css" rel="stylesheet" type "text/css">
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" type "text/css">
     </head>
     <body>
-        <div class="container">
-        	<h1>This is my webpage</h1>
-        	<p>And here the main text and my photo</p>
-
-        </div>
+        <section id="header">
+            <div class="container-fluid">
+                <div class="row">
+<!-- Logo -->     
+                    <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 logo">
+                        <h2>Oleksandr PAVLYK</h2>
+                    </div>
+<!-- Nav -->   
+                    <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 menu">
+						<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+						  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1" aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+						  	<div class="collapse navbar-collapse" id="navbar1">
+						    	<ul class="navbar-nav mr-auto">
+						      		<li class="nav-item active"><a class="nav-link" href="index.html">HOME<span class="sr-only">(current)</span></a></li>
+								    <li class="nav-item"><a class="nav-link" href="cv.html">ABOUT</a></li>
+								    <li class="nav-item"><a class="nav-link" href="family.html">FAMILY</a></li>
+						      		<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">WORK</a>
+						        		<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+						          			<a class="dropdown-item" href="prof.html">ARTICLES</a>
+						          			<a class="dropdown-item" href="projects.html">PROJECTS</a>
+						        		</div>
+						      		<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOBBIES</a>
+						        		<div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+						          			<a class="dropdown-item" href="it.html">IT</a>
+						          			<a class="dropdown-item" href="sport.html">SPORT</a>
+						          			<a class="dropdown-item" href="it.html">COOKING</a>
+						          			<a class="dropdown-item" href="sport.html">TRAVELLING</a>
+						        		</div>
+						      		</li>
+									<li class="nav-item"><a class="nav-link" href="contacts.html">CONTACTS</a></li>	
+						    	</ul>
+						  	</div>
+						</nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- Introduction -->
+        <section id="main">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 intro-photo">
+                      <div id="intro-photo"></div>  
+                    </div>
+                     <div class="col-sm-12 col-md-7 col-lg-7 col-xl-7 intro-text">
+                  Если вы не предоставляете ссылки на ваши профили в профессиональных социальных сетях, то менеджеры по подбору персонала всё равно будут вас в них искать.Так почему бы не включить URL на ваш профиль самостоятельно в блоке контактных данных? Это позволит предотвратить шанс того, что рекрутером придётся угадывать, какой профиль принадлежит именно вам.Если вы не предоставляете ссылки на ваши профили в профессиональных социальных сетях, то менеджеры по подбору персонала всё равно будут вас в них искать.Так почему бы не включить URL на ваш профиль самостоятельно в блоке контактных данных? Это позволит предотвратить шанс того, что рекрутером придётся угадывать, какой профиль принадлежит именно вам.
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 intro-text-2">
+						<p>Here you can see a new information which have been recently added to my site</p>
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						  </ol>
+						<div class="carousel-inner">
+						    <div class="carousel-item active">
+						     	<a href="prof.html"><img src="images/real_estate_market.jpg" class="d-block w-100" alt="..."></a>
+						     	<div class="carousel-caption d-none d-sm-block">
+						    		<h5 class="slider-text">Development of the real estate market</h5>
+						 		</div>
+						    </div>
+						    <div class="carousel-item">
+						     	<a href="prof.html"><img src="images/plant.jpg" class="d-block w-100" alt="..."></a>
+						     	<div class="carousel-caption d-none d-sm-block">
+						    		<h5 class="slider-text">Valuation methodology for a factory as a complex of tangable assest</h5>
+						 		</div>
+						    </div>
+						    <div class="carousel-item">
+						     	<a href="cv.html"><img src="images/cv.jpg" class="d-block w-100" alt="..."></a>
+						     	<div class="carousel-caption d-none d-sm-block">
+						    		<h5 class="slider-text">My Curriculum Vitae</h5>
+						 		</div>
+						    </div>
+						</div>
+						  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						    	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    	<span class="sr-only">Previous</span>
+						  	</a>
+						  	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    	<span class="sr-only">Next</span>
+						  	</a>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- Footer -->
+        <section id="footer">
+            <div class="container-fluid">
+                <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 icons">
+                            <div id="f-icon"></div>
+                            <div id="t-icon"></div>
+                            <div id="i-icon"></div>
+                        </div>
+                </div>
+            </div>
+        </section>
+            <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     </body>
 </html>

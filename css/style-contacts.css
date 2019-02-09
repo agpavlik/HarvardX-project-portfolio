@@ -20,14 +20,13 @@ section#header{
 	width: 100%;
 	border: 0px;
 	box-sizing: border-box;
-
 }
 section#main{
 	background-image: url(../images/paper.jpg);
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
-	min-height: 80vh;
+	min-height: 90vh;
 	border: 0px;
 	box-sizing: border-box;
 }
@@ -53,42 +52,14 @@ section#footer{
 	padding-top: 10px;
 }
 .bg-dark{background-color: rgb(37, 48, 104)!important;}
-.intro-photo{
-	padding-left:5%;}
-#intro-photo{
-	background-image: url(../images/photo1.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 300px;
-	width: 300px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	padding: 0;
-	border-radius:150px;
-	border: 2px solid white;
-}
-.intro-text{
+.text	{background-color: rgb(122, 173, 240, 0.6);
 	padding:40px;
+	min-height:90vh;
 }
-.intro-text-2{
-	min-height:23vh;
-	text-align: center;
+.footer{
+	background-color: rgb(37, 48, 104);
+	height: 50px;
 }
-@media screen and (min-width: 769px) {
-#carouselExampleIndicators{width:600px; margin:0px auto 5px;}
-.carousel-item{width:600px;}
-}
-@media screen and (min-width: 421px) and (max-width: 768px){
-#carouselExampleIndicators{width:400px; margin:0px auto 5px;}
-.carousel-item{width:400px;}
-}
-@media screen and (max-width: 420px){
-#carouselExampleIndicators{width:300px; margin:0px auto 5px;}
-.carousel-item{width:300px;}
-}
-.slider-text{color:white;
- text-shadow: 0px 0px 5px black, 0 0 1em black}
- 
 .icons{
 display: inline-block;
 text-align: right;
@@ -109,12 +80,3 @@ padding-right: 20px;
 #f-icon:hover{background-image: url(../images/f_orig.png);}
 #t-icon:hover{background-image: url(../images/t_orig.png);}
 #i-icon:hover{background-image: url(../images/i_orig.png);}
-
-@media screen and (max-width: 799px) {
-.intro-photo, .intro-text, .intro-text-2{
-	background-color: none;}
-}
-@media screen and (min-width: 800px){
-.intro-photo, .intro-text, .intro-text-2{
-	background-color: rgb(122, 173, 240, 0.6);}
-}
