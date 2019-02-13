@@ -1,6 +1,11 @@
-@import "sections.css";
 *{font-family: Nunito, sans-serif;}
-
+.container-fluid{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	border: 0px;
+	box-sizing: border-box;
+	}
 .row{
 	margin: 0px;
 	padding: 0px;
@@ -8,7 +13,35 @@
 	border: 0px;
 	box-sizing: border-box;
 }
+section#header{
+	background-color: rgb(37, 48, 104);
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	border: 0px;
+	box-sizing: border-box;
+
+}
+section#main{
+	background-image: url(../images/paper.jpg);
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	min-height: 80vh;
+	border: 0px;
+	box-sizing: border-box;
+}
+section#footer{
+	background-color: rgb(37, 48, 104);
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 50px;
+	border: 0px;
+	box-sizing: border-box;
+}
 .logo{
+	background-color: rgb(37, 48, 104);
 	height: 70px;
 	color: white;
 	padding-top: 15px;
@@ -16,6 +49,7 @@
 }
 /*nav*/
 .menu{
+	background-color: rgb(37, 48, 104);
 	min-height: 70px;
 	padding-top: 10px;
 }
@@ -28,16 +62,13 @@
 	height: 300px;
 	width: 300px;
 	border-radius:150px;
+	border: 2px solid white;
 }
 @media screen and (min-width: 769px) {
-#intro-photo{
-	margin: 20px 0px 20px 7%;
-	border: 2px solid white;}
+#intro-photo{margin: 20px 0px 20px 7%;}
 }
 @media screen and (max-width: 770px) {
-#intro-photo{
-	margin: 10px auto 10px;
-	border: 2px solid rgb(37, 48, 104);}
+#intro-photo{margin: 10px auto 10px;}
 }
 .intro-text{
 	padding:50px;
@@ -48,11 +79,11 @@
 	text-align: center;
 }
 /*slider*/
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 769px) {
 #carouselExampleIndicators{width: 600px; margin: 0px auto 5px;}
 .carousel-item{width: 600px;}
 }
-@media screen and (min-width: 421px) and (max-width: 769px){
+@media screen and (min-width: 421px) and (max-width: 768px){
 #carouselExampleIndicators{width: 400px; margin: 0px auto 5px;}
 .carousel-item{width: 400px;}
 }
@@ -87,7 +118,7 @@ padding-right: 20px;
 #t-icon:hover{background-image: url(../images/t_orig.png);}
 #i-icon:hover{background-image: url(../images/i_orig.png);}
 
-@media screen and (max-width: 399px){
+@media screen and (max-width: 399px) {
 .intro-photo, .intro-text, .intro-text-2{background-color: none;}
 }
 @media screen and (min-width: 850px){

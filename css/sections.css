@@ -1,0 +1,27 @@
+section#header, section#header .container-fluid, section#main, section#main .container-fluid, section#footer, section#footer .container-fluid {
+  background-color: #253068;
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  border: 0px;
+  box-sizing: border-box; }
+  section#header .container-fluid, section#main .container-fluid, section#footer .container-fluid {
+    background-color: transparent; }
+    section#header .container-fluid .row .logo, section#main .container-fluid .row .logo, section#footer .container-fluid .row .logo {
+      background-color: #253068; }
+    section#header .container-fluid .row .menu, section#main .container-fluid .row .menu, section#footer .container-fluid .row .menu {
+      background-color: #253068; }
+
+section#main {
+  background-image: url(../images/paper.jpg);
+  background-color: transparent;
+  min-height: 80vh; }
+  section#main .container-fluid {
+    background-color: transparent; }
+
+section#footer {
+  height: 50px; }
+  section#footer .container-fluid {
+    background-color: transparent; }
+
+/*# sourceMappingURL=sections.css.map */

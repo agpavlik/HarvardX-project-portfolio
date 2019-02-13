@@ -1,0 +1,45 @@
+$color: rgb(37, 48, 104);
+$margin:0px;
+$padding:0px;
+$width: 100%;
+$border: 0px;
+$box: border-box;
+
+section#header{
+	background-color: $color;
+	margin:$margin;
+	padding:$padding;
+	width: $width;
+	border: $border;
+	box-sizing: $box;
+		.container-fluid{
+		background-color: transparent;
+		@extend section#header;
+				.row{
+					.logo {background-color: $color;}
+					.menu {background-color: $color;}
+				}
+		}
+}
+section#main {
+	background-image: url(../images/paper.jpg);
+	@extend section#header;
+	background-color: transparent;
+	min-height: 80vh;
+		.container-fluid{
+		@extend section#header;
+		background-color: transparent;
+		}
+}
+section#footer {
+	@extend section#header;
+	height: 50px;
+		.container-fluid{
+		@extend section#header;
+		background-color: transparent;
+		}
+}
+
+
+
+
